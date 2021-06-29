@@ -31,8 +31,8 @@ if (
 
   $mail->isSMTP();
   $mail->SMTPDebug  = 1;
-  $mail->Username = "***********; // Replace with your mail id
-  $mail->Password = "*************"; //Replace with your mail pass
+  $mail->Username = "desbloqueio.epp@gmail.com"; // Replace with your mail id
+  $mail->Password = "EPP_DigitalSMTP321"; //Replace with your mail pass
   $mail->SMTPAuth = true;  // authentication enabled
   $mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for GMail
   $mail->SMTPAutoTLS = false;
